@@ -72,9 +72,7 @@ a:hover {
 
 .window-glow {
 	box-shadow: 0 0 5px var(--glow-color), 
-				0 0 25px var(--glow-color), 
-				0 0 50px var(--glow-color),
-				0 0 200px var(--glow-color);
+				0 0 25px var(--glow-color);
 
 	transition: box-shadow 0.2s;
 }
