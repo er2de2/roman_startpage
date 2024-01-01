@@ -99,3 +99,8 @@ a:hover {
 .ace_gutter {
 	background-color: var(--window-color) !important;
 }
+
+img {
+	pointer-events: none !important;
+	user-select: none !important;
+  }
