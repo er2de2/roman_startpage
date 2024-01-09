@@ -18,7 +18,7 @@
 		"gray": "#9399B2"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "https://raw.githubusercontent.com/er2de2/test/main/catppuccin_wall.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
