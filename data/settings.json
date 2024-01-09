@@ -1,19 +1,21 @@
 {
-	"username": "Excalith",
+	"username": "roman",
 	"theme": {
 		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
-		"gray": "#97989d"
+		"backgroundColor": "#1e1e2e",
+		"windowColor": "#181825",
+		"textColor": "#CDD6F4",
+		"black": "#11111B",
+		"red": "#F38BA8",
+		"green": "#A6E3A1",
+		"yellow": "#F9E2AF",
+		"blue": "#89B4FA",
+		"magenta": "#EBA0AC",
+		"cyan": "#89DCEB",
+		"white": "#CDD6F4",
+		"violet": "#CBA6F7",
+		"orange": "#FAB387",
+		"gray": "#9399B2"
 	},
 	"wallpaper": {
 		"url": "assets/default-wallpaper.svg",
@@ -24,20 +26,20 @@
 	"terminal": {
 		"fixedHeight": true,
 		"windowGlow": true,
-		"windowGlowColor": "#291f3325",
+		"windowGlowColor": "#EBA0AC",
 		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
+		"opacity": 1,
+		"blur": 0
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
-		"placeholderColor": "gray",
-		"userColor": "green",
-		"atColor": "gray",
-		"hostColor": "magenta",
-		"promptColor": "magenta",
-		"promptSymbol": "❯",
+		"placeholder": "wpisz...",
+		"placeholderColor": "white",
+		"userColor": "yellow",
+		"atColor": "blue",
+		"hostColor": "green",
+		"promptColor": "white",
+		"promptSymbol": "=>",
 		"caretColor": "green",
 		"selectionBg": "yellow",
 		"selectionFg": "black"
@@ -46,27 +48,26 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/kociak.png",
 		"data": [
-			"Time: {time}",
-			"Date: {date}",
+			"Godzina: {time}",
+			"Data: {date}",
 			"{seperator}",
 			"OS: {osName} {osVersion}",
 			"Theme: {theme}",
 			"{seperator}",
-			"Browser: {browser} {browserVersion}",
-			"Engine: {engineName}",
+			"Przeglądarka: {browser} {browserVersion}",
 			"{seperator}",
 			"{colors}"
 		]
 	},
 	"urlLaunch": {
-		"target": "_self",
-		"hoverColor": "magenta"
+		"target": "_blank",
+		"hoverColor": "blue"
 	},
 	"search": {
 		"default": "https://google.com/search?q=",
-		"target": "_self",
+		"target": "_blank",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
 			{
