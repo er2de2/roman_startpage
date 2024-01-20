@@ -1,6 +1,10 @@
 {
     "name": "start-page",
+<<<<<<< HEAD
     "version": "4.2",
+=======
+    "version": "3.1.2",
+>>>>>>> c0415f3154a05a83b83ea2d5ef0b7cea270d0df2
     "private": true,
     "scripts": {
         "dev": "next dev",
